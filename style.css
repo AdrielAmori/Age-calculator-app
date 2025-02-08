@@ -1,0 +1,108 @@
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:  hsl(0, 0%, 86%);
+}
+
+#container{
+  width: 700px;
+  height: 580px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px 20px 150px 20px;
+}
+
+#header{
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 30px;
+  justify-content: start;
+  margin: 20px 30px 0 30px;
+  font-weight: 700;
+}
+
+#header h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+input{
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 86%);
+  padding-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+input:focus{
+  border: 2px solid hsl(259, 100%, 65%);
+  outline: none;
+}
+
+
+#button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+#button hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid hsl(0, 0%, 86%);
+}
+
+#button img {
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(259, 100%, 65%);
+  cursor: pointer;
+}
+
+#button img:hover{
+  background-color: hsl(0, 0%, 8%);
+}
+
+#result {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+#result h2 {
+  font-size: 80px;
+  margin: 5px 0;
+}
+
+span {
+  color: hsl(259, 100%, 65%);
+  font-size: 90px;
+}
+
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
